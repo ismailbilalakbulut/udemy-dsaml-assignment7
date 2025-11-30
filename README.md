@@ -62,4 +62,4 @@ Tüm modellerin karşılaştırmalı performans metrikleri (Silhouette Skoru ve 
 2.  **Algoritma Farklılıkları:**
     * **K-Means**, küresel kümeler oluşturmada başarılı olmuş, ancak aykırı değerlere karşı hassasiyeti gözlemlenmiştir.
     * **HDBSCAN**, veri setindeki gürültüyü (ayıklanmamış aykırı değerleri) bir küme olarak sınıflandırmayarak daha esnek bir yapı sergilemiştir.
-3.  **En İyi Performans:** **[Buraya PCA sonrası en iyi skoru veren algoritmanın adı yazılacak]** algoritması, **[PCA/Orijinal]** veri seti üzerinde **en yüksek Silhouette Skoru** ile en iyi ayrımı sağlamıştır.
+3.  **En İyi Performans:** **K-Means** algoritması, **PCA** veri seti üzerinde **en yüksek Silhouette Skoru** ile en iyi ayrımı sağlamıştır.
